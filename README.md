@@ -1,9 +1,9 @@
-Team Members - 
-   Aashka Chhabra
-   Anchi Kansal
-   Anubha Sharma
-   Ansh Shekokar
-   Anushka Verma 
+Team Members - <br>
+   Aashka Chhabra<br>
+   Anchi Kansal<br>
+   Anubha Sharma<br>
+   Ansh Shekokar<br>
+   Anushka Verma <br>
 
 Classification of Amazon Fine Food Reviews using LSTM
 The objective of this study is to classify the positive 
@@ -32,4 +32,7 @@ products and reviews of the product before buying
 the product on amazon itself. The dataset includes 
 the reviews from Oct 1999 to Oct 2012 and has a total 
 of 568,454 reviews on 74,258 products.
+<br>
+<br>
+https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
