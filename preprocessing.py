@@ -1,16 +1,12 @@
-
 import numpy as np
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
-import seaborn as sns
-from keras.models import Sequential
-from keras.layers import Dense, LSTM, Embedding
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing import sequence
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv('../input/amazon-fine-food-reviews/Reviews.csv')
+df = pd.read_csv('./Reviews.csv')
 df = df[['Text', 'Score']]
 df.rename(columns={'Text': 'review', 'Score': 'label'}, inplace=True)
 
