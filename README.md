@@ -95,4 +95,3 @@ This project implements sentiment analysis using LSTMs to classify customer revi
 
 ---
 
- **Stay tuned for results and performance metrics!**  
