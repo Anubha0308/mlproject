@@ -1,0 +1,22 @@
+@import "tailwindcss";
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@keyframes wiggle {
+  0% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+.spinner-border {
+  border-radius: 50%;
+  border-top-color: transparent;
+}
